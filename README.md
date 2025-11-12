@@ -63,8 +63,9 @@ plt.grid(True)
 plt.show()
 
 
-## Output:
-<img width="1202" height="830" alt="Screenshot 2025-11-12 105928" src="https://github.com/user-attachments/assets/99d1c0f5-7ab3-44b2-8967-f003e21db6dc" />
+## Output:v!
+<img width="1202" height="830" alt="Screenshot 2025-11-12 105928" src="https://github.com/user-attachments/assets/9fedb2df-f6b9-4503-ba1e-0a15afde579b" />
+
 
 
 
