@@ -24,8 +24,7 @@ import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score
-Program to implement the simple linear regression model for predicting the marks scored.
-Developed by: 
+Program to implement the simple linear regression model for predicting the marks scored. 
 RegisterNumber:  
 */data={ 
      "Hours_Studied":[1,2,3,4,5,6,7,8,9,10],
@@ -69,3 +68,7 @@ plt.show()
 
 Result:
 Thus the program to implement the simple linear regression model for predicting the marks scored is written and verified using python programming.
+hours= 7.5
+predicted_marks= model.predict([[hours]])
+print(f"\nPredicted marks for {hours} hours of study= {predicted_marks[0]:.2f}")
+​
