@@ -63,12 +63,16 @@ plt.show()
 <img width="1202" height="830" alt="Screenshot 2025-11-12 105928" src="https://github.com/user-attachments/assets/9fedb2df-f6b9-4503-ba1e-0a15afde579b" />
 
 
+hours= 7.5
+predicted_marks= model.predict([[hours]])
+print(f"\nPredicted marks for {hours} hours of study= {predicted_marks[0]:.2f}")
+​
+<img width="462" height="28" alt="Screenshot 2025-11-12 113243" src="https://github.com/user-attachments/assets/37d105e7-7138-4d48-b426-dd011f6e75ce" />
+
 
 
 
 Result:
 Thus the program to implement the simple linear regression model for predicting the marks scored is written and verified using python programming.
-hours= 7.5
-predicted_marks= model.predict([[hours]])
-print(f"\nPredicted marks for {hours} hours of study= {predicted_marks[0]:.2f}")
+
 ​
