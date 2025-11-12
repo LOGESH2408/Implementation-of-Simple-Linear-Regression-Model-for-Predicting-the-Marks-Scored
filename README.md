@@ -46,12 +46,9 @@ y_pred= model.predict(x_test)
 print("\nModel Parameters:")
 print("Intercept (b0):", model.intercept_)
 print("Slope (b1):", model.coef_[0])   
-​
-​
 print("\nEvaluation Metrics:")
 print("Mean Squared Error:", mean_squared_error(y_test,y_pred))
 print("R^2 Score:", r2_score(y_test, y_pred))
-
 plt.figure(figsize=(8,6))
 plt.scatter(x,y, color='blue', label="Actual Data")
 plt.plot(x, model.predict(x),color='red', linewidth=2, label="Regression Line")
@@ -61,16 +58,14 @@ plt.title("Simple Linear Regression: Predicting Marks")
 plt.legend()
 plt.grid(True)
 plt.show()
+```
 
-*/
-
-## Output:v!
+ Output:v!
 <img width="1202" height="830" alt="Screenshot 2025-11-12 105928" src="https://github.com/user-attachments/assets/9fedb2df-f6b9-4503-ba1e-0a15afde579b" />
 
 
 
 
 
-
-## Result:
+Result:
 Thus the program to implement the simple linear regression model for predicting the marks scored is written and verified using python programming.
